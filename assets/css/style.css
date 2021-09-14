@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* common */
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.border-bottom{
+  border-bottom: 2px solid #fff;
+}
+
+.counter{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #FAA501;
+  border-radius: 50%;
+}
+
+body{
+  background-image: url('../img/bg2_1920x1200.jpg');
+}
+
+/* HEADER */
+#logo{
+  width: 200px;
+  margin-left: -44px;
+  vertical-align: middle;
+}
+
+#logo-text{
+  color: white;
+  font-size: 25px;
+}
+
+header .header-bottom{
+  padding: 10px 0;
+}
+header .header-bottom button{
+  padding: 0 5px;
+}
+#diplay-count{
+  color: white;
+  padding: 10px 0;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+
+/* MAIN */
+.email-list{
+  padding-bottom: 10px;
+}
+
+.email-row{
+  padding: 7px 5px;
+  border: 1px solid black;
+}
+
+.email-row.unread{
+  background-color: lightgray;
+}
+
+.email-row.read{
+  background-color: white;
+}
+
+.email-text{
+  color: grey;
+}
+
+.email-text::before{
+  content: ' - ';
+}
+
+.email-text::after{
+  content: '...';
+}
+
+.star::after{
+  content: '\02605';
+}
+
+/* FOOTER */
+footer{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer .credit{
+  font-size: 18px;
+  font-style: italic;
+}
